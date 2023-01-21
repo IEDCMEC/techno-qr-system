@@ -1,7 +1,7 @@
 {
   "functions": {
     "pages/**/*": {
-      "excludeFiles": "node_modules/@mui/material"
+      "excludeFiles": "node_modules/@mui/*, node_modules/@zxing/*,node_modules/react-icons/*"
     }
   }
 }
