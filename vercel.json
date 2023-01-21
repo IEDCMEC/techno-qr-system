@@ -1,7 +1,7 @@
 {
   "functions": {
-    "pages/api/*": {
-      "excludeFiles": "{public/**,.next/**/*,.vercel/**/*}"
+    "pages/**/*": {
+      "excludeFiles": "node_modules/@mui/material"
     }
   }
 }
