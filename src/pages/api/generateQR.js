@@ -1,5 +1,5 @@
 const QRCode = require("qrcode");
-// const { createCanvas, loadImage } = require("canvas");
+const { createCanvas, loadImage } = require("canvas");
 
 export default async function generateQR(req, res) {
   const center_image = "images/logo.png";
