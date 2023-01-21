@@ -1,8 +1,8 @@
 const QRCode = require("qrcode");
-const { createCanvas, loadImage } = require("canvas");
+// const { createCanvas, loadImage } = require("canvas");
 
 export default async function generateQR(req, res) {
-  const center_image = "images/download.png";
+  const center_image = "images/logo.png";
   const { string } = req.body;
 
   const width = 325; // To align the image in the center
